@@ -5,12 +5,13 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon path.js",
-    "truc": "node script.js"
+    "start": "nodemon server.js",
+    "truc": "node env.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "minimist": "^1.2.6",
     "nodemon": "^2.0.19"
